@@ -1,0 +1,18 @@
+Instructions:
+Enter the following commands into your terminal.  Do not enter the '$'.
+
+Clone the Code: 
+  $ git clone https://github.coecis.cornell.edu/sz266/CS-3110-Final-Project
+  $ cd CS-3110-Final-Project
+
+Install ANSITerminal
+  $ opam install ANSITerminal
+  $ opam install Yojson
+
+Build Instructions:
+  $ make clean
+  $ make build
+
+Play Instructions: 
+  $ make clean
+  $ make play
