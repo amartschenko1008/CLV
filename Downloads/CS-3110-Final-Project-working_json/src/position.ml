@@ -140,12 +140,12 @@ let chance_of_j j : square =
       name = j |> member "name" |> to_string;
     }
  let chance_list = [
-  ("Advance to GO. Collevt $200", 0);
-  ("Advance to Illinois Ave", 24);
-  ("Advance to St. Charles Place", 11);
-  ("Go to Jail. Do not pass GO. Do not collect $200", 10);
-  ("Take a trip to Reading Railroad", 5);
-  ("Thake a walk on the Boardalk", 39);
+  ("Advance to GO. Collevt $200.", 0);
+  ("Advance to Illinois Ave.", 24);
+  ("Advance to St. Charles Place.", 11);
+  ("Go to Jail. Do not pass GO. Do not collect $200.", 10);
+  ("Take a trip to Reading Railroad.", 5);
+  ("Thake a walk on the Boardalk.", 39);
 ]
 
 let community_chest_of_j j : square =

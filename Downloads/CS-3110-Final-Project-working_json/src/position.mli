@@ -68,6 +68,9 @@ type square =
 type t
 (** The abstract type of values representing a board*)
 
+val chance_list : (string * int) list
+(**[chance_list] is a list of possible chance cards containing their message and the int value of their new position. *)
+
 val get_name : square -> string
 (**[get_name t] returns the string name of the square represented by [t]. *)
 
